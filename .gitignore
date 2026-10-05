@@ -1,0 +1,127 @@
+# ============================================
+# Environment / Secrets
+# ============================================
+.env
+.env.*
+!.env.example
+
+# Backend environment
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Frontend environment
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+
+# ============================================
+# Dependencies
+# ============================================
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+
+# ============================================
+# Backend - Node.js
+# ============================================
+backend/dist/
+backend/build/
+backend/coverage/
+
+# Runtime / uploaded files
+backend/uploads/
+backend/storage/
+backend/tmp/
+backend/temp/
+
+# Logs
+backend/logs/
+backend/*.log
+*.log
+
+
+# ============================================
+# Frontend - Next.js
+# ============================================
+frontend/.next/
+frontend/out/
+frontend/dist/
+frontend/coverage/
+
+# Next.js generated files
+frontend/.vercel/
+
+
+# ============================================
+# Database / Local data
+# ============================================
+data/
+logs/
+
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+
+# ============================================
+# Cache
+# ============================================
+.cache/
+.tmp/
+temp/
+tmp/
+
+
+# ============================================
+# Testing
+# ============================================
+coverage/
+.nyc_output/
+
+
+# ============================================
+# TypeScript
+# ============================================
+*.tsbuildinfo
+
+
+# ============================================
+# Package managers
+# ============================================
+.pnpm-debug.log*
+.npm/
+.yarn/
+.yarn-cache/
+.pnp.*
+
+
+# ============================================
+# OS
+# ============================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ============================================
+# Editors / IDE
+# ============================================
+.vscode/
+.idea/
+
+# VS Code settings that are sometimes worth committing
+# !.vscode/extensions.json
+# !.vscode/settings.json
+
+
+# ============================================
+# Misc
+# ============================================
+*.swp
+*.swo
+*~
